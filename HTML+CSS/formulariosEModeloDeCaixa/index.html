@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <style>
+      body {
+        font-family: 'Arial';
+      }
+    </style> -->
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <h1>Formulários</h1>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, ullam explicabo blanditiis delectus perspiciatis officiis sapiente sit modi porro minima numquam unde facilis enim fuga velit tempora cumque dolores quo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ipsam aliquid inventore, eaque molestiae minima unde quos, voluptatum quasi delectus fugit veritatis culpa voluptates voluptatibus nesciunt! Harum necessitatibus vero optio!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam perferendis, facilis qui iste laboriosam itaque voluptate consequatur dicta sapiente id quaerat delectus odit modi eum nostrum possimus recusandae excepturi eligendi.</p>
+    
+    <form>
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="email@me.com" required />
+      <br />
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" name="senha" />
+      <br /><br />
+      <label>Você já foi ao cinema esse ano?</label>
+      <br />
+      <input type="radio" id="sim" name="cinema" value="sim" checked /><label for=sim">Sim</label>
+      <br>
+      <input type="radio" id="nao" name="cinema" value="nao" /><label for=nao">Nao</label>
+      <br>
+      <label for="genero">Qual seu genero de cinema favorito?</label>
+      <br>
+      <input type="checkbox" name="genero" id="terror" value="terror" checked><label for="terror">Terror</label>
+      <br>
+      <input type="checkbox" name="genero" id="drama" value="drama"><label for="drama">Drama</label>
+      <br>
+      <input type="checkbox" name="genero" id="romance" value="romance"><label for="romance">Romance</label>
+      <br>
+      <label for="pais">País</label>
+      <select name="pais" id="pais">
+        <option selected disabled>Selecione</option>
+        <option value="BRA">Brasil</option>
+        <option value="AR">Argentina</option>
+        <option value="UY">Uruguai</option>
+      </select>
+      <br>
+      <label>Selecione o mês do seu aniversário</label>
+        <select name="mes" id="mes">
+          <option selected disabled>Selecione</option>
+          <option value="1">Janeiro</option>
+          <option value="2">Fevereiro</option>
+          <option value="3">Março</option>
+          <option value="4">Abril</option>
+          <option value="5">Maio</option>
+          <option value="6">Junho</option>
+          <option value="7">Julho</option>
+          <option value="8">Agosto</option>
+          <option value="9">Setembro</option>
+          <option value="10">Outubro</option>
+          <option value="11">Novembro</option>
+          <option value="12">Dezembro</option>
+        </select>
+        <input type="submit" value="Enviar">
+      <br>
+      <label for="mensagem">Mensagem</label>
+      <br>
+      <textarea name="mensagem" id="mensagem" cols="50" rows="5"></textarea>
+      <br>
+      <!-- <input type="submit" value="enviar" /> -->
+      <button type="button">Teste</button>
+      <button type="reset">Limpar campos</button>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>

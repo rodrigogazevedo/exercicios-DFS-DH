@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+}
+
+p {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 20px;
+}
+
+h2 {
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* cores e fundos */
+body {
+  /* background-color: #ccc; */
+  background-image: url(../imagens/digitalhouse.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p {
+  color: rgba(255, 0, 0, 0.5);
+}
