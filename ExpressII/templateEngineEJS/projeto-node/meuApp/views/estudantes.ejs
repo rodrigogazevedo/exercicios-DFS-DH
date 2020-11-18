@@ -1,0 +1,19 @@
+<%- include("./partials/header") %> 
+    <main>
+      <h1>Estudantes</h1>
+      <hr />
+      <% 
+        let estudantes = [ 
+        {nome: 'Rodrigo', curso: "Desenvolvedor Full Stack", email: "rodrigogdeazevedo@gmail.com"}, 
+        {nome: 'Andre', curso: 'Mobile Android', email: 'andrepallaoro@gmail.com'}, 
+        {nome: 'Thiago', curso: 'Web Designer', email: 'thiagoaraujo@gmail.com'} 
+        ]; 
+      %>
+
+      <ul>
+        <% for(let estudante of estudantes) { %>
+        <li>Olá. Sou <%= estudante.nome %> e estou no curso de <%= estudante.curso %>. Meu email é <%= estudante.email %></li>
+        <% } %>
+      </ul>
+
+      <%- include("./partials/header") %>
