@@ -16,6 +16,6 @@ router.get('/confirmarcontato', IndexController.confirmarContato);
 // router.get('/dadosalunos', AlunosController.dadosalunos);
 
 // router.get('/teste', TesteController.index);
-// // router.put('/filme', TesteController.editar);
+// router.put('/filme', TesteController.editar);
 
 module.exports = router;
